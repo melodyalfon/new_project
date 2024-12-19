@@ -1,0 +1,153 @@
+#banner{
+    height: 90vh;
+    background-image: url(cpsu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.btn{
+    padding: 15px 30px;
+    border-radius: 60px;
+    font-size: 20px;
+    font-weight: 500px;
+    transition: all .3s ease;
+}
+
+.btn-brand{
+    background-color: blueviolet;
+    color: aquamarine;
+
+}
+
+.btn-brand:hover{
+     background-color: transparent;
+     border: 2px solid violet;
+     color: blueviolet;
+
+}
+section{
+padding: 100px 0px;
+
+}
+#about h2{
+    font-size: 50px;
+    font-weight: 500px;
+    color: rgb(36, 30, 36);
+    background-color: rgb(161, 161, 173);
+}
+
+#services {
+    background-color: aliceblue;
+}
+#services h2{
+    font-size: 50PX;
+    font-weight: 500;
+    color: blueviolet;
+
+}
+#cta{
+    height: 90vh;
+    background-image: url(bot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.testemonials{
+    border: 2px solid rgb(97, 65, 50);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+.testemonials img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url(icon.jpg);
+
+}
+.testemonials a{
+   color: rgb(110, 175, 97);
+
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: brown;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid cadetblue;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color:aquamarine;
+
+}
+.accordion-button:not(.collapsed){
+    background-color: azure;
+    color: aqua;
+
+}
+.accordion-button:hover{
+   background-color: rgb(135, 168, 229);
+   color: lightseagreen;
+}
+
+#faq{
+
+    background-color: rgb(138, 124, 138);
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(100, 52, 40) ;
+
+}
+#footer ul.list-unstyle li a{
+ color: aquamarine;
+ text-decoration: none;
+
+}
+#footer ul.list-unstyle li :hover a{
+ color: rgb(21, 156, 111);
+ 
+}
+
+.btn-outline-light{
+    border-color: rgb(240, 238, 241);
+    color: cornflowerblue;
+    border-radius: 0;
+}
+
+@media screen  and (max-width:767px) {
+    #about img {
+        height:30px;
+        width: 300px;
+
+    }
+
+    #services .card {
+        margin-top: 20px;
+    }
+    
+    section {
+        padding: 60px 20px;
+    }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="../handler/login_handler.php" method="POST">
+            <label for="username">fullName:</label>
+            <input type="text" id="fullname" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" style="width: 97%;">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register</a></p>
+    </div>
+</body>
+</html>
